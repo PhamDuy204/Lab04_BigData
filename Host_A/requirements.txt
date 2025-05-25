@@ -1,0 +1,2 @@
+kagglehub
+kafka-python
