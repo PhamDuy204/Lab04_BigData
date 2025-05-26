@@ -22,6 +22,9 @@ Execute: `python send_data.py`
 Step 1: Install required Python packages.  
 Run: `pip install -r requirements.txt`
 
-Step 2: Run the main processing script.  
+Step 2: Map port host A to B.  
+Run: `ssh -L 9092:localhost:9092 -N ip_host_A`
+
+Step 3: Run the main processing script.  
 Execute: `python3 main.py`
 
